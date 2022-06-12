@@ -1,0 +1,24 @@
+.midWrap {
+  position: absolute;
+  left: 290px;
+  right: 290px;
+  bottom: 0;
+  height: 100vh;
+  border: 1px solid #cacaca;
+  border-top: 3px solid #cacaca;
+  border-bottom: 3px solid #cacaca;
+  background: #fff;
+  background-size: 25px 25px;
+  background-image: linear-gradient(to right, #f1f1f1 1px, transparent 1px),
+    linear-gradient(to bottom, #f1f1f1 1px, transparent 1px);
+    overflow-x: hidden;
+  overflow-y: auto;
+  .canvas {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    .canvasBlock {
+      position: absolute;
+    }
+  }
+}
